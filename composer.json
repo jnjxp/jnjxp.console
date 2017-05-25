@@ -1,0 +1,20 @@
+{
+    "name": "jnjxp/console",
+    "description": "Simple PHP Console",
+    "type": "library",
+    "require": {
+        "psr/log": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\Console\\": "src/"
+        }
+    }
+}
